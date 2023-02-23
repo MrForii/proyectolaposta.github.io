@@ -1,0 +1,9 @@
+.courses {
+    margin-top: 1rem;
+}
+
+.container-courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}

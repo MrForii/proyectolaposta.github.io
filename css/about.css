@@ -1,0 +1,126 @@
+/* Objetivos */
+
+.about-objectives {
+    margin-top: 3rem;
+}
+
+.container-about-objectives {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.container-about-objectives h1 {
+    padding: 1rem 0;
+}
+
+.container-about-objectives p {
+    padding: 2rem 0;
+}
+
+.about-objectives-left img{
+    padding: 2rem 0;
+}
+
+.about-objectives-right p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.objective-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.objective-card {
+    background-color: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.objective-card:hover {
+    background-color: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.icon-card {
+    background-color: var(--color-primary);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Perfil */
+
+.about-me {
+    margin-top: 3rem;
+}
+
+.container-about-me {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 5rem;
+}
+
+.about-me-general {
+    padding-left:  2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.container-about-me h3 {
+    padding: 1rem 1rem;
+    background-color: var(--color-bg1);
+    border-radius: 1rem;
+}
+
+.about-me-education ul li{
+    padding:2rem 0 0.5rem 2rem;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+    .about-objectives {
+        margin-top: 2rem;
+    }
+
+    .container-about-objectives {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .about-objectives-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-me {
+        margin-top: 2rem;
+    }
+
+    .container-about-me {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+
+    .about-me-left {
+        width: 25rem;
+        justify-self: center;
+    }
+}
+
+/* Movil */
+@media screen and (max-width:600px) {
+    .objective-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+}
