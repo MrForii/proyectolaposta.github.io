@@ -120,7 +120,7 @@
 /* Movil */
 @media screen and (max-width:600px) {
     .objective-cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 0.7rem;
     }
 }
