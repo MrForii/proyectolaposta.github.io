@@ -7,3 +7,21 @@
     grid-template-columns: 1fr 1fr;
     gap: 7rem;
 }
+/* MEDIA QUERIES */
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .container-courses {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+/* Movil */
+
+@media screen and (max-width: 600px) {
+    .container-courses {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+}
