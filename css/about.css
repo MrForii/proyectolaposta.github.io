@@ -123,4 +123,28 @@
         grid-template-columns: 1fr;
         gap: 0.7rem;
     }
+    .container-about-me {
+        grid-template-columns: 1fr;
+    }
+    .about-me-left {
+        width: 20rem;
+        justify-self: center;
+    }
+    
+    .about-me-general {
+        padding-left:0;
+        text-align: justify;
+    }
+    
+    .container-about-me h3 {
+        padding: 1rem 0;
+        background-color: var(--color-bg1);
+        border-radius: 1rem;
+    }
+    
+    .about-me-education ul li{
+        padding:0;
+        gap: 1rem;
+        padding-top: 1rem;
+    }
 }
